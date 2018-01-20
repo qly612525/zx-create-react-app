@@ -3,14 +3,23 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
     "husky": "^0.14.3",
+    "jest-enzyme": "^4.0.2",
     "lint-staged": "^6.0.1",
+    "material-ui": "^0.20.0",
     "node-sass-chokidar": "0.0.3",
     "npm-run-all": "^4.1.2",
     "prettier": "^1.10.2",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
-    "react-scripts-ts": "2.12.0"
+    "react-redux": "^5.0.6",
+    "react-router-dom": "^4.2.2",
+    "react-router-redux": "^4.0.8",
+    "react-scripts-ts": "2.12.0",
+    "react-test-renderer": "^16.2.0",
+    "redux": "^3.7.2"
   },
   "lint-staged": {
     "src/**/*.{js,jsx,json,css}": [
@@ -31,8 +40,13 @@
   },
   "devDependencies": {
     "@types/jest": "^22.0.1",
+    "@types/material-ui": "^0.20.4",
     "@types/node": "^9.3.0",
     "@types/react": "^16.0.34",
-    "@types/react-dom": "^16.0.3"
+    "@types/react-dom": "^16.0.3",
+    "@types/react-redux": "^5.0.14",
+    "@types/react-router-dom": "^4.2.3",
+    "@types/react-router-redux": "^5.0.11",
+    "@types/redux": "^3.6.0"
   }
 }

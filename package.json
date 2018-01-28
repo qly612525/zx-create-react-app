@@ -42,6 +42,8 @@
     "eject": "node_modules/.bin/react-scripts-ts eject"
   },
   "devDependencies": {
+    "@types/enzyme": "^3.1.8",
+    "@types/enzyme-adapter-react-16": "^1.0.1",
     "@types/history": "^4.6.2",
     "@types/jest": "^22.0.1",
     "@types/material-ui": "^0.20.4",
@@ -53,6 +55,9 @@
     "@types/react-router-redux": "^5.0.11",
     "@types/redux": "^3.6.0",
     "@types/redux-devtools-extension": "^2.13.2",
-    "@types/redux-thunk": "^2.1.0"
+    "@types/redux-thunk": "^2.1.0",
+    "jest-cli": "^22.1.4",
+    "react-addons-test-utils": "^15.6.2",
+    "ts-jest": "^22.0.1"
   }
 }

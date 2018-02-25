@@ -8,7 +8,7 @@ import reducers from '../reducers';
 import initState from './initState';
 
 const middlewares = [thunk];
-const composeEnhancers = process.env.NODE_ENV !== 'production' ? composeWithDevTools : compose;
+const composeEnhancers = process.env.NODE_ENV !== 'production' ? composeWithDevTools({}) : compose;
 
 export default function (history: History) {
     const routingMiddleware = routerMiddleware(history);

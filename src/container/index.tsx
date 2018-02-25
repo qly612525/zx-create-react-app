@@ -5,7 +5,7 @@ import { ConnectedRouter } from 'react-router-redux';
 import { createBrowserHistory } from 'history';
 
 import configureStore from '../store/configureStore';
-import Home from './home';
+import CityPicker from './cityPicker';
 
 const history = createBrowserHistory();
 const store = configureStore(history);
@@ -16,7 +16,7 @@ class Root extends React.Component<{}, {}> {
             <Provider store={store}>      
                 <ConnectedRouter history={history}>
                     <Switch>
-                        <Route exact={true} path="/" component={Home} />
+                        <Route exact={true} path="/" component={CityPicker} />
                     </Switch>
                 </ConnectedRouter>
             </Provider>
